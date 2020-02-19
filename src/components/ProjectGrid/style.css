@@ -1,0 +1,56 @@
+.project-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    place-items: center;
+    justify-content: center;
+    width: 50vw;
+    margin: 0 auto;
+} 
+
+.project {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-wrapper img {
+    width: 35%;
+    height: 35%;
+}
+
+#project-one {
+    background-color: lightgoldenrodyellow;
+}
+
+#project-two {
+    background-color: lightcoral;
+}
+
+#project-three {
+    background-color: lightblue;
+}
+
+#project-four {
+    background-color: pink;
+}
+
+#project-five {
+    background-color: lavender;
+}
+
+#project-six {
+    background-color: lightgreen;
+}
+
+.project:hover {
+    opacity: .5;
+    background-color: #BFD1FF;
+    cursor: pointer;  
+}
+
+.project:focus, .project:active {
+    border: 3px solid lightgray;
+}
