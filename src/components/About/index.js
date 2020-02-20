@@ -4,16 +4,20 @@ import './style.css'
 function About() {
     return (
         <div id="about-section" className="container">
-
             <div className="columns is-centered">
-
-                <div id="about-words" className="column is-7">
-                    <div className="title">
+                <div className="column is-10">
+                <div className="title">
                         Hi there. I'm Madeleine.
                     </div>
                     <div className="subtitle">
                         Let me tell you a little bit about myself...
                     </div>
+                </div>
+            </div>
+            <div className="columns is-centered">
+
+                <div id="about-words" className="column is-7">
+                    
                     <p>
                         I am a GIS Full Stack Developer who gets excited about building impactful apps
                         with complex code to solve real-world problems. I am skilled in HTML/CSS,

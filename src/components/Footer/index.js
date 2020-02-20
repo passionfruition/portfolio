@@ -3,7 +3,7 @@ import './style.css'
 
 function Footer() {
     return (
-        <div className="">
+        <div id="contact" className="">
             <p className="buttons is-centered">
                         <a href="https://www.linkedin.com/in/madeleine-prak/" target="_blank"
                             className="button is-black is-outlined">

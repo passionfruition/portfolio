@@ -29,7 +29,7 @@ function Navbar() {
       <a className="navbar-item" href="#portfolio">
                         Portfolio
       </a>
-      <a className="navbar-item">
+      <a className="navbar-item" href="#contact">
                         Contact
       </a>
       <a className="navbar-item">
