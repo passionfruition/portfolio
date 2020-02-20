@@ -6,7 +6,7 @@ function Navbar() {
         <nav className="navbar is-transparent is-fixed-top">
             <div className="navbar-brand">
                 <a className="navbar-item" href="/home">
-                    MADELEINE
+                    MP
                 </a>
                 <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
                     <span></span>

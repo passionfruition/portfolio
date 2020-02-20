@@ -1,0 +1,12 @@
+#header-words {
+    text-align: left;
+}
+
+#header-words .title {
+    font-size: 50px;
+}
+
+#header {
+    width: 60vw;
+    margin: 0 auto;
+}
