@@ -6,7 +6,7 @@ function Navbar() {
         <nav className="navbar is-transparent is-fixed-top">
             <div className="navbar-brand">
                 <a className="navbar-item" href="/home">
-                    Madeleine
+                    MADELEINE
                 </a>
                 <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
                     <span></span>
@@ -17,19 +17,17 @@ function Navbar() {
 
             <div id="navbarExampleTransparentExample" className="navbar-menu">
                 <div className="navbar-start">
-                    <a className="navbar-item" href="https://bulma.io/">
+                    {/* <a className="navbar-item" href="https://bulma.io/">
                         Home
-      </a>
-                    <div className="navbar-item is-hoverable">
-                        <a className="navbar-link" href="https://bulma.io/documentation/overview/start/">
-                            Docs
-        </a>
-                    </div>
+      </a> */}
                 </div>
 
                 <div className="navbar-end">
                     <a className="navbar-item">
                         Portfolio
+      </a>
+      <a className="navbar-item">
+                        Resume
       </a>
                 </div>
             </div>
