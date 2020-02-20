@@ -3,7 +3,7 @@ import './style.css'
 
 function Hero() {
     return (
-        <section className="hero is-large">
+        <section id="home" className="hero is-large">
             <div id="header" className="hero-body has-text-centered">
                 <div className="columns">
                     <div className="">
@@ -13,7 +13,7 @@ function Hero() {
                     </div>
                     <div id="header-words" className="column">
                         <p className="title">
-                            Full-stack Developer
+                            GIS Full-stack Developer
                         </p>
                         <p className="subtitle">
                             I design and build beautiful web applications, and I love what I do.

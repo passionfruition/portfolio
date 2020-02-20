@@ -1,3 +1,13 @@
 footer {
     padding: 0;
 }
+
+.buttons {
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+.buttons .button {
+    border-radius: 50%;
+}

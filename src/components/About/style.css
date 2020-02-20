@@ -1,17 +1,14 @@
-.about-section {
-    /* height: 40vh;
-    width: 35vw; */
-    /* text-align: center; */
-    /* margin: 0 auto; */
+#about-section {
     margin-top: 100px;
-    /* margin-bottom: 250px; */
 }
 
-.buttons {
-    position: absolute;
-    right: 0;
-}
 
 #about-words {
     padding-right: 30px;
+}
+
+#about-photo {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
 }

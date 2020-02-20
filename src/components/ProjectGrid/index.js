@@ -3,7 +3,7 @@ import './style.css'
 
 function ProjectGrid() {
     return (
-        <div className="project-wrapper container">
+        <div id="portfolio" className="project-wrapper container">
             <div id="project-one" className="project">
                 <img src={require('../../assets/icons/king.png')}></img>
                 <div className="project-title title">

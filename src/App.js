@@ -11,9 +11,10 @@ function App() {
     <div className="App">
       <Navbar/>
       <Hero/>
-      <ProjectGrid/>
       <hr></hr>
       <About/>
+      <hr></hr>
+      <ProjectGrid/>
       <hr></hr>
       <Footer />
     </div>

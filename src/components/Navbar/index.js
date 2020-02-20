@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <nav className="navbar is-transparent is-fixed-top">
             <div className="navbar-brand">
-                <a className="navbar-item" href="/home">
+                <a className="navbar-item" href="#home">
                     MP
                 </a>
                 <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
@@ -23,8 +23,14 @@ function Navbar() {
                 </div>
 
                 <div className="navbar-end">
-                    <a className="navbar-item">
+      <a className="navbar-item" href="#about-section">
+                        About
+      </a>
+      <a className="navbar-item" href="#portfolio">
                         Portfolio
+      </a>
+      <a className="navbar-item">
+                        Contact
       </a>
       <a className="navbar-item">
                         Resume
