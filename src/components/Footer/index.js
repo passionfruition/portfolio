@@ -8,20 +8,29 @@ function Footer() {
                         <a href="https://www.linkedin.com/in/madeleine-prak/" target="_blank"
                             className="button is-black is-outlined">
                             <span className="icon is-small">
-                                <i className="fab fa-linkedin-in social-icon"></i>
+                                <i className="fab fa-linkedin-in"></i>
                             </span>
                         </a>
                         <a href="https://github.com/madeleineprak" target="_blank" className="button is-black is-outlined">
                             <span className="icon is-small">
-                                <i className="fab fa-github-alt social-icon"></i>
+                                <i className="fab fa-github-alt"></i>
                             </span>
                         </a>
                         <a href="https://twitter.com/devmadeleine" target="_blank" className="button is-black is-outlined">
                             <span className="icon is-small">
-                                <i className="fab fa-twitter social-icon"></i>
+                                <i className="fab fa-twitter"></i>
                             </span>
                         </a>
-
+                        <a href="mailto:madeleineprak@gmail.com" target="_blank" className="button is-black is-outlined">
+                            <span className="icon is-small">
+                                <i className="fas fa-envelope"></i>
+                            </span>
+                        </a>
+                        <a href="tel:425-737-8950" target="_blank" className="button is-black is-outlined">
+                            <span className="icon is-small">
+                                <i className="fas fa-phone"></i>
+                            </span>
+                        </a>
                     </p>
             <div className="has-text-centered">
                 <p>

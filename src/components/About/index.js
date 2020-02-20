@@ -42,11 +42,6 @@ function About() {
 
                 <div id="about-etc" className="column is-3">
                     <img id="about-photo" src={require('../../assets/me.png')}></img>
-                    <br></br>
-
-                    <a id="email-link" href="mailto:madeleineprak@gmail.com" target="_blank">madeleineprak@gmail.com</a>
-                    <br></br>
-                    <a href="tel:425-737-8950" target="_blank">425-737-8950</a>
                 </div>
             </div>
         </div>
