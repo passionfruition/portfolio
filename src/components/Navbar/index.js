@@ -8,6 +8,9 @@ function Navbar() {
                 <a className="navbar-item" href="#home">
                     MP
                 </a>
+                <a className="navbar-item">
+                    Resume
+                </a>
                 <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
                     <span></span>
                     <span></span>
@@ -23,18 +26,15 @@ function Navbar() {
                 </div>
 
                 <div className="navbar-end">
-      <a className="navbar-item" href="#about-section">
+                    <a className="navbar-item" href="#about-section">
                         About
-      </a>
-      <a className="navbar-item" href="#portfolio">
+                    </a>
+                    <a className="navbar-item" href="#portfolio">
                         Portfolio
-      </a>
-      <a className="navbar-item" href="#contact">
+                    </a>
+                    <a className="navbar-item" href="#contact">
                         Contact
-      </a>
-      <a className="navbar-item">
-                        Resume
-      </a>
+                    </a>
                 </div>
             </div>
         </nav>

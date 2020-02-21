@@ -1,11 +1,16 @@
 import React from 'react'
 import './style.css'
+import { useSpring, animated } from 'react-spring'
+
+const calc = (x, y) => [x-window.innerWidth/2, y - window.innerHeight/2]
+const trans1 = (x, y) => `translate3d(${x / 75}px,${y / 75}px,0)`
 
 function ProjectGrid() {
+    const [props, set] = useSpring(() => ({ xy: [0,0], config: {mass: 10, tension: 550, friction: 140}}))
     return (
-        <div id="portfolio" className="project-wrapper container">
+        <div id="portfolio" className="project-wrapper container" onMouseMove={({ clientX: x, clientY: y}) => set({ xy: calc(x,y)})}>
             <div id="project-one" className="project">
-                <img src={require('../../assets/icons/king.png')}></img>
+            <animated.img src={require('../../assets/icons/king.png')} className="" style={{ transform: props.xy.interpolate(trans1) }} />
                 <div className="project-title title">
                     Meme King
                 </div>
@@ -14,7 +19,7 @@ function ProjectGrid() {
                 </div>
             </div>
             <div id="project-two" className="project">
-                <img src={require('../../assets/icons/maps-and-location.png')}></img>
+            <animated.img src={require('../../assets/icons/maps-and-location.png')} className="" style={{ transform: props.xy.interpolate(trans1) }} />
                 <div className="project-title title">
                     Mom 'N Pop
                 </div>
@@ -23,7 +28,7 @@ function ProjectGrid() {
                 </div>
             </div>
             <div id="project-three" className="project">
-                <img src={require('../../assets/icons/mountain.png')}></img>
+            <animated.img src={require('../../assets/icons/mountain.png')} className="" style={{ transform: props.xy.interpolate(trans1) }} />
                 <div className="project-title title">
                     Find My Hike
                 </div>
@@ -32,7 +37,7 @@ function ProjectGrid() {
                 </div>
             </div>
             <div id="project-four" className="project">
-                <img src={require('../../assets/icons/ice-cream.png')}></img>
+            <animated.img src={require('../../assets/icons/ice-cream.png')} className="" style={{ transform: props.xy.interpolate(trans1) }} />
                 <div className="project-title title">
                     Get The Scoop
                 </div>
@@ -41,7 +46,7 @@ function ProjectGrid() {
                 </div>
             </div>
             <div id="project-five" className="project">
-                <img src={require('../../assets/icons/photography.png')}></img>
+            <animated.img src={require('../../assets/icons/photography.png')} className="" style={{ transform: props.xy.interpolate(trans1) }} />
                 <div className="project-title title">
                     Memory Twist
                 </div>
@@ -50,7 +55,7 @@ function ProjectGrid() {
                 </div>
             </div>
             <div id="project-six" className="project">
-                <img src={require('../../assets/icons/tree.png')}></img>
+            <animated.img src={require('../../assets/icons/tree.png')} className="" style={{ transform: props.xy.interpolate(trans1) }} />
                 <div className="project-title title">
                     Hey Bud
                 </div>
