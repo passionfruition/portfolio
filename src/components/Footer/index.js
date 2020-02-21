@@ -5,28 +5,28 @@ function Footer() {
     return (
         <div id="contact" className="">
             <p className="buttons is-centered">
-                        <a href="https://www.linkedin.com/in/madeleine-prak/" target="_blank"
+                        <a href="https://www.linkedin.com/in/madeleine-prak/" target="_blank" rel="noopener noreferrer"
                             className="button is-black is-outlined">
                             <span className="icon is-small">
                                 <i className="fab fa-linkedin-in"></i>
                             </span>
                         </a>
-                        <a href="https://github.com/madeleineprak" target="_blank" className="button is-black is-outlined">
+                        <a href="https://github.com/madeleineprak" target="_blank" rel="noopener noreferrer" className="button is-black is-outlined">
                             <span className="icon is-small">
                                 <i className="fab fa-github-alt"></i>
                             </span>
                         </a>
-                        <a href="https://twitter.com/devmadeleine" target="_blank" className="button is-black is-outlined">
+                        <a href="https://twitter.com/devmadeleine" target="_blank" rel="noopener noreferrer" className="button is-black is-outlined">
                             <span className="icon is-small">
                                 <i className="fab fa-twitter"></i>
                             </span>
                         </a>
-                        <a href="mailto:madeleineprak@gmail.com" target="_blank" className="button is-black is-outlined">
+                        <a href="mailto:madeleineprak@gmail.com" target="_blank" rel="noopener noreferrer" className="button is-black is-outlined">
                             <span className="icon is-small">
                                 <i className="fas fa-envelope"></i>
                             </span>
                         </a>
-                        <a href="tel:425-737-8950" target="_blank" className="button is-black is-outlined">
+                        <a href="tel:425-737-8950" target="_blank" rel="noopener noreferrer" className="button is-black is-outlined">
                             <span className="icon is-small">
                                 <i className="fas fa-phone"></i>
                             </span>

@@ -41,7 +41,7 @@ function About() {
                 </div>
 
                 <div id="about-etc" className="column is-3">
-                    <img id="about-photo" src={require('../../assets/me.png')}></img>
+                    <img id="about-photo" alt="profile" src={require('../../assets/me.png')}></img>
                 </div>
             </div>
         </div>

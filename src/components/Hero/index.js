@@ -8,7 +8,7 @@ function Hero() {
                 <div className="columns is-centered">
                     <div className="">
                         <figure id="header-icon" className="image is-128x128">
-                            <img className="is-rounded" src={require('../../assets/profile2.jpg')}></img>
+                            <img alt="icon" className="is-rounded" src={require('../../assets/profile2.jpg')}></img>
                         </figure>
                     </div>
                     <div id="header-words" className="">

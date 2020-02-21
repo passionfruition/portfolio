@@ -55,27 +55,27 @@
     display: block;
 }
 
-#project-one {
+#project1 {
     background-color: #FFED83;
 }
 
-#project-two {
+#project2 {
     background-color: coral;
 }
 
-#project-three {
+#project3 {
     background-color: skyblue;
 }
 
-#project-four {
+#project4 {
     background-color: pink;
 }
 
-#project-five {
+#project5 {
     background-color:orchid;
 }
 
-#project-six {
+#project6 {
     background-color: lightgreen;
 }
 
@@ -88,3 +88,29 @@
 .project:focus, .project:active {
     border: 3px solid lightgray;
 }
+
+/* .c {
+    position: absolute;
+    max-width: 500px;
+    max-height: 500px;
+    width: 50ch;
+    height: 50ch;
+    cursor: pointer;
+    will-change: transform, opacity;
+  }
+  
+  .front,
+  .back {
+    background-size: cover;
+  }
+  
+  .back {
+    background-color: white;
+  }
+  
+  .front {
+      color: white;
+background-color: black;  
+}
+   */
+  
