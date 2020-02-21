@@ -3,7 +3,7 @@ import './style.css'
 
 function Footer() {
     return (
-        <div id="contact" className="">
+        <div id="contact" className="footer">
             <p className="buttons is-centered">
                         <a href="https://www.linkedin.com/in/madeleine-prak/" target="_blank" rel="noopener noreferrer"
                             className="button is-black is-outlined">
@@ -34,7 +34,7 @@ function Footer() {
                     </p>
             <div className="has-text-centered">
                 <p>
-                Project icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+                All project icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
                 </p>
             </div>
         </div>

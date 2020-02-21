@@ -1,5 +1,6 @@
 #header-words {
     text-align: left;
+    margin-left: 30px;
 }
 
 #header-words .title {
@@ -9,4 +10,14 @@
 #header {
     width: 60vw;
     margin: 0 auto;
+}
+
+section {
+    -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
 }

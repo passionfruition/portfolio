@@ -43,7 +43,6 @@ render() {
       <About/>
       <hr></hr>
       <ProjectGrid/>
-      <hr></hr>
       <Footer />
     </div>
   );
