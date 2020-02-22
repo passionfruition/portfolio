@@ -11,7 +11,11 @@ import projects from '../src/data'
 class App extends React.Component {
   state = {
     name: "",
-    short: ""
+    short: "",
+    id: null,
+    tools: [],
+    github: "",
+    website: ""
   }
 
   componentDidMount() {
@@ -40,8 +44,15 @@ class App extends React.Component {
 displayProjectDetails = (event) => {
   event.preventDefault();
   let clickedProject = projects[parseInt(event.target.dataset.id)]
-  this.setState({ name: clickedProject.name, short: clickedProject.short}, function() {
- console.log(this.state.name)
+  this.setState({ 
+    name: clickedProject.name, 
+    short: clickedProject.short, 
+    id:clickedProject.id, 
+    tools: clickedProject.tools, 
+    github: clickedProject.github, 
+    website: clickedProject.website
+  }, function() {
+ console.log(this.state.tools)
     this.toggleModal("test")
   })
   // this.setState({ clickedProject : projects[parseInt(event.target.dataset.id)], name: 'hi'})
@@ -54,7 +65,15 @@ displayProjectDetails = (event) => {
 render() {
   return (
     <div className="App">
-      <ProjectModal toggleModal={this.toggleModal} name={this.state.name} short={this.state.short}/>
+      <ProjectModal 
+        toggleModal={this.toggleModal} 
+        name={this.state.name} 
+        short={this.state.short} 
+        id={this.state.id}
+        tools={this.state.tools}
+        github={this.state.github}
+        website={this.state.website}
+        />
       <button id="test-button" className="button" onClick={() => this.toggleModal()}>click me</button>
       <Navbar/>
       <Hero/>

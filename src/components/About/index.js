@@ -21,7 +21,7 @@ function About() {
                     <p>
                         I am a GIS Full Stack Developer who gets excited about building impactful apps
                         with complex code to solve real-world problems. I am skilled in HTML/CSS,
-                        JavaScript, modern JS libraries, UX/UI Design, MERN Stack and RESTful API.
+                        JavaScript, modern JS libraries, UX/UI Design, RESTful API and specialize in the MERN Stack.
                         When it comes to work, I want to be involved in projects that I find challenging
                         alongside people that inspire me.
                     </p>
