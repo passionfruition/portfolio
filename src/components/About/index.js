@@ -45,8 +45,8 @@ function About() {
                             I received a Bachelors in Geographic Information Systems and minor in Informatics
                             from the University of Washington, Seattle, and most recently a certificate in Full Stack Web
                             Development from the UW Full Stack Web Development Bootcamp. My
-                            background is in customer based experience ranging from restaurant service to
-                            working at a transportation planning consultant company.
+                            background is in customer-based work ranging from restaurant service to
+                            a GIS Technician at a transportation planning consultant company.
                         </div>
                         <br></br>
                         <div className="message last">
