@@ -9,7 +9,7 @@
 
 #about-photo {
     width: 350px;
-    height: 365px;
+    height: 425px;
     object-fit: cover;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     -webkit-filter: drop-shadow(2px 2px 2px #222);
@@ -17,7 +17,7 @@
 }
 
 .subtitle {
-    color: #42d6ff;
+    /* color: #42d6ff; */
     /* color: #1decfd; */
 }
 
@@ -29,4 +29,43 @@
     height: 30px;
     object-fit: cover;
     margin: 5px;
+}
+  
+.message {
+    border-radius: 20px;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+.mine .message {
+    color: white;
+    /* margin-left: 25%; */
+    background: linear-gradient(to bottom, #00D0EA 0%, #0085D1 100%);
+    background-attachment: fixed;
+    position: relative;
+}
+
+.mine .message.last:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    right: -8px;
+    height: 20px;
+    width: 20px;
+    background: linear-gradient(to bottom, #00D0EA 0%, #0085D1 100%);
+    background-attachment: fixed;
+    border-bottom-left-radius: 15px;
+}
+
+.mine .message.last:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: -10px;
+    width: 10px;
+    height: 20px;
+    background: white;
+    border-bottom-left-radius: 10px;
 }
