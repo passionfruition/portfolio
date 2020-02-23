@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css'
 import logo from '../../assets/logo-blue.png'
+import resume from '../../Resume.pdf'
 
 function Navbar() {
     return (
@@ -33,6 +34,9 @@ function Navbar() {
                     </a>
                     <a className="navbar-item" href="#contact">
                         Contact
+                    </a>
+                    <a className="navbar-item resume" target="_blank" href={resume}>
+                        Resume
                     </a>
                 </div>
             </div>
