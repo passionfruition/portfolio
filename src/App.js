@@ -74,7 +74,7 @@ render() {
         github={this.state.github}
         website={this.state.website}
         />
-      <button id="test-button" className="button" onClick={() => this.toggleModal()}>click me</button>
+      {/* <button id="test-button" className="button" onClick={() => this.toggleModal()}>click me</button> */}
       <Navbar/>
       <Hero/>
       <hr></hr>

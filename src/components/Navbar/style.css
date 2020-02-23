@@ -1,3 +1,20 @@
 .navbar {
     background-color: rgba(255,255,255,0.5);
+
+}
+
+.navbar a {
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    /* color: #4a4a4a; */
+    color: #42d6ff;
+    /* border-bottom: 3px solid #fa5bf5;     */
+    /* color: #1decfd; */
+}
+
+.navbar .navbar-item img {
+    max-height: 3rem;
+    max-width: 3rem;
 }

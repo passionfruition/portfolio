@@ -24,7 +24,7 @@ function ProjectModal(props) {
                         {props.tools.map(tool=> (
                             <span class="tag is-primary is-medium is-rounded">{"#" + tool}</span>                    
                         ))}
-                    </div>      
+                    </div>  
                     <div className="project-gif">
                         <img src={gifs[props.id - 1]}></img>
                     </div>
@@ -46,8 +46,8 @@ function ProjectModal(props) {
                             Demo
             </span>
                     </a>
-                    <button className="button is-success">Save changes</button>
-                    <button className="button" onClick={() => props.toggleModal()} aria-label="close">Cancel</button>
+                    {/* <button className="button is-success">Save changes</button>
+                    <button className="button" onClick={() => props.toggleModal()} aria-label="close">Cancel</button> */}
                 </footer>
             </div>
         </div>

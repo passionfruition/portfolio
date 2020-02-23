@@ -1,15 +1,14 @@
 import React from 'react';
 import './style.css'
+import logo from '../../assets/logo-blue.png'
 
 function Navbar() {
     return (
         <nav className="navbar is-transparent is-fixed-top">
+            <div className="container">
             <div className="navbar-brand">
                 <a className="navbar-item" href="#home">
-                    MP
-                </a>
-                <a className="navbar-item">
-                    Resume
+                    <img id="logo" src={logo}></img> 
                 </a>
                 <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
                     <span></span>
@@ -37,6 +36,8 @@ function Navbar() {
                     </a>
                 </div>
             </div>
+            </div>
+            
         </nav>
     )
 }

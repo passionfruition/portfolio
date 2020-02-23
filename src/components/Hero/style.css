@@ -4,7 +4,13 @@
 }
 
 #header-words .title {
-    font-size: 50px;
+    font-size: 58px;
+    border-bottom: 3px solid #61e2ff;
+    width: 100%;
+}
+
+#header-words .subtitle {
+    color: #4a4a4a;
 }
 
 #header {

@@ -14,12 +14,12 @@ function Hero() {
                 <div className="columns is-centered">
                     <div className="">
                         <figure id="header-icon"className="image is-128x128">
-                            <a.img alt="icon" style={{ transform: icon }} transform={icon} className="is-rounded" src={require('../../assets/profile2.jpg')}/>
+                            <a.img alt="icon" style={{ transform: icon }} transform={icon} className="is-rounded" src={require('../../assets/profile-blue.png')}/>
                         </figure>
                     </div>
                     <div id="header-words" className="">
                         <p className="title">
-                            Full-stack Developer
+                            Full Stack Developer
                         </p>
                         <p className="subtitle">
                             I design and build beautiful web applications, and I love what I do.
