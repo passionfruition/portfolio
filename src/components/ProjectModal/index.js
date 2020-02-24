@@ -22,7 +22,7 @@ function ProjectModal(props) {
                     {props.short}
                     <div className="project-tools">
                         {props.tools.map(tool=> (
-                            <span class="tag is-info is-medium is-rounded">{"#" + tool}</span>                    
+                            <span class="tag is-medium is-rounded">{"#" + tool}</span>                    
                         ))}
                     </div>  
                     <div className="project-gif">

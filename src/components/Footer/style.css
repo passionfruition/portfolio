@@ -1,12 +1,15 @@
-
-
-.buttons {
+.footer .buttons {
     width: 50%;
     margin: 0 auto;
     
 }
 
-.buttons .button {
+.footer .buttons .button {
     border-radius: 50%;
     margin: 15px !important;
+}
+
+.footer a {
+    color: #42d6ff;
+
 }

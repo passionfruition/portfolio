@@ -4,7 +4,7 @@ import { useSpring, animated as a, interpolate } from 'react-spring'
 
 function Hero() {
     const [{ st, xy }, set] = useSpring(() => ({ st: 0, xy: [0, 0] }))
-    const icon = xy.interpolate((x, y) => `perspective(400px) rotateY(${x / 50}deg) rotateX(${-y / 50}deg)`)
+    const icon = xy.interpolate((x, y) => `perspective(400px) rotateY(${x / 25}deg) rotateX(${-y / 25}deg)`)
     const onMove = useCallback(({ clientX: x, clientY: y }) => set({ xy: [x - window.innerWidth / 2, y - window.innerHeight / 2] }), [])
     const onScroll = useCallback(e => set({ st: e.target.scrollTop / 30 }), [])
 

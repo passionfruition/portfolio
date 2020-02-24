@@ -43,8 +43,7 @@
 .project-wrapper img {
     width: 25%;
     height: 25%;
-    -webkit-filter: drop-shadow(2px 2px 2px #222);
-    filter: drop-shadow(2px 2px 2px #222);
+
 }
 
 .project:hover img {
@@ -83,9 +82,11 @@
 }
 
 .project:hover {
-    opacity: .75;
-    background-color: #BFD1FF;
+    opacity: .85;
+    background-color: white;
     cursor: pointer;  
+    -webkit-filter: drop-shadow(2px 2px 2px #222);
+    filter: drop-shadow(2px 2px 2px #222);
 }
 
 .project:focus, .project:active {

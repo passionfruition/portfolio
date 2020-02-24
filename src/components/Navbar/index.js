@@ -26,18 +26,21 @@ function Navbar() {
                 </div>
 
                 <div className="navbar-end">
-                    <a className="navbar-item" href="#about-section">
+                    <a className="navbar-item nav-link" href="#about-section">
                         About
                     </a>
-                    <a className="navbar-item" href="#portfolio">
+                    <a className="navbar-item nav-link" href="#portfolio">
                         Portfolio
                     </a>
-                    <a className="navbar-item" href="#contact">
+                    <a className="navbar-item nav-link" href="#contact">
                         Contact
                     </a>
-                    <a className="navbar-item resume" target="_blank" href={resume}>
+                    <div className="buttons">
+                    <a className="navbar-item button resume" target="_blank" href={resume}>
                         Resume
                     </a>
+                    </div>
+                    
                 </div>
             </div>
             </div>
