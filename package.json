@@ -1,6 +1,6 @@
 {
-  "homepage": "https://madeleineprak.github.io/",
-  "name": "madeleineprak.github.io",
+  "homepage": "https://madeleineprak.github.io/portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
