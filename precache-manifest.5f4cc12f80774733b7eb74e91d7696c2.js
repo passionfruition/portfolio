@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "304699cb11df11237ed7a0f2fa5fe651",
+    "revision": "8aedc41a91ec0498acc2fe6f08fd33fa",
     "url": "/my-portfolio/index.html"
   },
   {
-    "revision": "cb758b59212b8e0728d7",
-    "url": "/my-portfolio/static/css/main.c168e41a.chunk.css"
+    "revision": "ce0e7b7091614aad9248",
+    "url": "/my-portfolio/static/css/main.9b37c2e9.chunk.css"
   },
   {
     "revision": "aac69fd1ba266f3df650",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/js/2.c50a39d7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cb758b59212b8e0728d7",
-    "url": "/my-portfolio/static/js/main.f6f5181d.chunk.js"
+    "revision": "ce0e7b7091614aad9248",
+    "url": "/my-portfolio/static/js/main.67fbdbfb.chunk.js"
   },
   {
     "revision": "164cd71dc8e56a933ce3",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/media/MomandPop.edb88740.gif"
   },
   {
-    "revision": "9981a0c126f59c0d176fbad5295bd238",
-    "url": "/my-portfolio/static/media/Resume.9981a0c1.pdf"
+    "revision": "0a828b9a42d644502eeb0aa4ff98a0b9",
+    "url": "/my-portfolio/static/media/Resume.0a828b9a.pdf"
   },
   {
     "revision": "b819d940dbd89a1d3f0869538ff32312",
