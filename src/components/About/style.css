@@ -3,32 +3,38 @@
     margin-bottom: 100px;
 }
 
-#about-words {
-    padding-right: 30px;
-}
-
 #about-photo {
-    width: 350px;
-    height: 425px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     -webkit-filter: drop-shadow(2px 2px 2px #222);
     filter: drop-shadow(2px 2px 2px #222);
+    margin-right: 10%;
 }
 
-.subtitle {
-    /* color: #42d6ff; */
-    /* color: #1decfd; */
+#about-section .subtitle {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#about-section .title {
+    width: 80%;
+    margin: 0 auto;
 }
 
 #about-etc {
     text-align: right;
 }
 
+.skills {
+text-align: center;
+}
+
 .skills img {
-    height: 40px;
+    height: 30px;
     object-fit: cover;
-    margin: 5px;
+    margin: 2px;
 }
   
 .message {
@@ -68,4 +74,38 @@
     height: 20px;
     background: white;
     border-bottom-left-radius: 10px;
+}
+
+.messages {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 769px) {
+    .messages {
+        width: 100%;
+    }
+
+    #about-photo {
+        width: 350px;
+        height: 450px;
+    }
+
+    #about-words {
+        padding-right: 30px;
+    }
+
+    #about-section .subtitle {
+        width: 100%;
+    }
+    
+    #about-section .title {
+        width: 100%;
+    }
+ 
+    .skills img {
+        height: 45px;
+        object-fit: cover;
+        margin: 5px;
+    }
 }

@@ -19,7 +19,7 @@ function ProjectGrid(props) {
 
     return (
         <div className="container project-section">
-            <div className="columns is-centered">
+            <div className="columns is-centered project-words">
                 <div className="column is-10">
                     <div className="title">
                         Here are some projects I've worked on...
