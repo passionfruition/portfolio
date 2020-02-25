@@ -5,6 +5,7 @@
 #header-words .title {
     font-size: 30px;
     width: 100%;
+    margin-top: 50px;
 }
 
 #header-words .subtitle {
@@ -36,6 +37,7 @@ section {
     #header-words .title {
         font-size: 58px;
         border-bottom: 3px solid #61e2ff;
+        margin-top: 0px;
     } 
     
     #header-words .subtitle {
