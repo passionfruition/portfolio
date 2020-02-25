@@ -4,8 +4,8 @@
 }
 
 #about-photo {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     -webkit-filter: drop-shadow(2px 2px 2px #222);
@@ -28,7 +28,9 @@
 }
 
 .skills {
-text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .skills img {
