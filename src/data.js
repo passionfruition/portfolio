@@ -10,18 +10,6 @@
 var projects = [
     {
         id: 1,
-        name: "Meme House",
-        photo: "",
-        gif: "",
-        description: "A social platform to create, view, and share memes.",
-        short: "Create, view, and share memes all in one spot",
-        tools: ["React", "Mongoose", "Cloudinary", "Passport.js"],
-        github: "https://github.com/madeleineprak/Meme-House",
-        website: "https://meme-house-ggm.herokuapp.com/home",
-        icon: "../../assets/icons/king.png"
-    },
-    {
-        id: 2,
         name: "Mom 'n Pop",
         photo: "../../assets/project-files/MomandPop.PNG",
         gif: "../../assets/project-files/MomandPop.gif",
@@ -33,7 +21,7 @@ var projects = [
         icon: "../../assets/icons/maps-and-location.png"
     },
     {
-        id: 3,
+        id: 2,
         name: "Hike Finder",
         photo: "../../assets/project-files/HikeFinder.PNG",
         gif: "../../assets/project-files/FindMyHike.gif",
@@ -45,7 +33,7 @@ var projects = [
         icon: "../../assets/icons/mountain.png"
     },
     {
-        id: 4,
+        id: 3,
         name: "Get The Scoop",
         photo: "../../assets/project-files/GetTheScoop.PNG",
         gif: "../../assets/project-files/GetTheScoop.gif",
@@ -57,7 +45,7 @@ var projects = [
         icon: "../../assets/icons/ice-cream.png"
     },
     {
-        id: 5,
+        id: 4,
         name: "Memory Game",
         photo: "../../assets/project-files/MemoryGame.PNG",
         gif: "../../assets/project-files/MemoryGame.gif",
@@ -69,7 +57,7 @@ var projects = [
         icon: "../../assets/icons/photography.png"
     },
     {
-        id: 6,
+        id: 5,
         name: "Hey Bud",
         photo: "../../assets/project-files/HeyBud.PNG",
         gif: "../../assets/project-files/HeyBud.gif",
@@ -79,6 +67,18 @@ var projects = [
         github: "https://github.com/madeleineprak/Friend-Finder",
         website: "https://heybud-devmadeleine.herokuapp.com/",
         icon: "../../assets/icons/tree.png"
+    },
+    {
+        id: 6,
+        name: "Meme House",
+        photo: "",
+        gif: "",
+        description: "A social platform to create, view, and share memes.",
+        short: "Create, view, and share memes all in one spot",
+        tools: ["React", "Mongoose", "Cloudinary", "Passport.js"],
+        github: "https://github.com/madeleineprak/Meme-House",
+        website: "https://meme-house-ggm.herokuapp.com/home",
+        icon: "../../assets/icons/king.png"
     }
 ]
 

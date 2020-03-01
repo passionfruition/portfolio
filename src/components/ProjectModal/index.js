@@ -7,7 +7,7 @@ import icecreamGif from '../../assets/project-files/GetTheScoop.gif'
 import memoryGif from '../../assets/project-files/MemoryGame.gif'
 import budGif from '../../assets/project-files/HeyBud.gif'
 
-const gifs = [memeGif, foodGif, hikeGif, icecreamGif, memoryGif, budGif]
+const gifs = [foodGif, hikeGif, icecreamGif, memoryGif, budGif, memeGif]
 
 function ProjectModal(props) {
     return (
