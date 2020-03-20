@@ -19,7 +19,7 @@ function Hero() {
                     </div>
                     <div id="header-words" className="">
                         <p className="title">
-                            Full Stack Developer
+                            Front End Developer
                         </p>
                         <p className="subtitle">
                             I design and build beautiful web applications, and I love what I do.

@@ -34,9 +34,9 @@ function About() {
                 <div id="about-words" className="column is-6">
                     <div className="mine messages">
                         <div className="message">
-                            I am a Full Stack Developer who gets excited about building impactful apps
+                            I am a developer who gets excited about building impactful apps
                             with complex code to solve real-world problems. I am skilled in HTML/CSS,
-                            JavaScript, modern JavaScript libraries and frameworks, UX/UI Design, RESTful API and specialize in the MERN Stack.
+                            JavaScript, modern JavaScript libraries and frameworks, UX/UI Design, RESTful API and the MERN Stack.
                             When it comes to work, I want to be involved in projects that I find challenging
                             alongside people that inspire me.
                         </div>
@@ -46,7 +46,7 @@ function About() {
                             from the University of Washington, Seattle, and most recently a certificate in Full Stack Web
                             Development from the UW Full Stack Web Development Bootcamp. My
                             background is in customer-based work ranging from restaurant service to
-                            a GIS Technician at a transportation planning consultant company.
+                            a GIS Data Analyst at a transportation planning consultant company.
                         </div>
                         <br></br>
                         <div className="message last">
