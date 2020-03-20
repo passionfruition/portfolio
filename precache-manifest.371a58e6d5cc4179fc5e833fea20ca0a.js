@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c9d32e0a3f498ed5676f0d2e6957670",
+    "revision": "040b8574bf96405f43e731f169542299",
     "url": "/index.html"
   },
   {
-    "revision": "2813aabc630abb6c824b",
-    "url": "/static/css/main.0d5cc794.chunk.css"
+    "revision": "46e6506d9026c3cfec0f",
+    "url": "/static/css/main.db808efc.chunk.css"
   },
   {
-    "revision": "174d12f8644f6bbe3a6f",
-    "url": "/static/js/2.7859dc6b.chunk.js"
+    "revision": "d95124e069ee0be6149d",
+    "url": "/static/js/2.78a77f50.chunk.js"
   },
   {
     "revision": "99bd0487192ec9e7d9ee8fbbd91ee444",
-    "url": "/static/js/2.7859dc6b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.78a77f50.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2813aabc630abb6c824b",
-    "url": "/static/js/main.3fa9ff56.chunk.js"
+    "revision": "46e6506d9026c3cfec0f",
+    "url": "/static/js/main.20ab3803.chunk.js"
   },
   {
     "revision": "0d46f7656c748826843c",
@@ -32,16 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/GetTheScoop.6579825f.gif"
   },
   {
-    "revision": "45fd3ffa329f81232c0adf65dbc6c1e5",
-    "url": "/static/media/HeyBud.45fd3ffa.gif"
-  },
-  {
     "revision": "22b6af0a56bea91e58a852f5ecd4f2db",
     "url": "/static/media/MemeHouse.22b6af0a.gif"
-  },
-  {
-    "revision": "c517b746a4560ed5b4f21307b3ef3b9f",
-    "url": "/static/media/MemoryGame.c517b746.gif"
   },
   {
     "revision": "edb88740b9bf98d9e3b89d4e1345aa07",
@@ -54,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b819d940dbd89a1d3f0869538ff32312",
     "url": "/static/media/arcgis.b819d940.png"
+  },
+  {
+    "revision": "ab55c4b6105a1adf08ff9c3fd254bda5",
+    "url": "/static/media/development.ab55c4b6.png"
   },
   {
     "revision": "9228f542564a699b423ed11b590a6254",
@@ -112,7 +108,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/sql.e63c8672.png"
   },
   {
-    "revision": "5e50767e001c3fba2e7b46c504584c57",
-    "url": "/static/media/tree.5e50767e.png"
+    "revision": "572c50c64ca36c37d95b23e790bb1119",
+    "url": "/static/media/virus.572c50c6.png"
   }
 ]);

@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d5cc794.chunk.css",
-    "main.js": "/static/js/main.3fa9ff56.chunk.js",
-    "main.js.map": "/static/js/main.3fa9ff56.chunk.js.map",
+    "main.css": "/static/css/main.db808efc.chunk.css",
+    "main.js": "/static/js/main.20ab3803.chunk.js",
+    "main.js.map": "/static/js/main.20ab3803.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c2b20a0b.js",
     "runtime-main.js.map": "/static/js/runtime-main.c2b20a0b.js.map",
-    "static/js/2.7859dc6b.chunk.js": "/static/js/2.7859dc6b.chunk.js",
-    "static/js/2.7859dc6b.chunk.js.map": "/static/js/2.7859dc6b.chunk.js.map",
+    "static/js/2.78a77f50.chunk.js": "/static/js/2.78a77f50.chunk.js",
+    "static/js/2.78a77f50.chunk.js.map": "/static/js/2.78a77f50.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2ae7b5e8ba755b71ad3877f80e3521f7.js": "/precache-manifest.2ae7b5e8ba755b71ad3877f80e3521f7.js",
+    "precache-manifest.371a58e6d5cc4179fc5e833fea20ca0a.js": "/precache-manifest.371a58e6d5cc4179fc5e833fea20ca0a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.0d5cc794.chunk.css.map": "/static/css/main.0d5cc794.chunk.css.map",
-    "static/js/2.7859dc6b.chunk.js.LICENSE.txt": "/static/js/2.7859dc6b.chunk.js.LICENSE.txt",
+    "static/css/main.db808efc.chunk.css.map": "/static/css/main.db808efc.chunk.css.map",
+    "static/js/2.78a77f50.chunk.js.LICENSE.txt": "/static/js/2.78a77f50.chunk.js.LICENSE.txt",
     "static/media/FindMyHike.gif": "/static/media/FindMyHike.89f9a731.gif",
     "static/media/GetTheScoop.gif": "/static/media/GetTheScoop.6579825f.gif",
-    "static/media/HeyBud.gif": "/static/media/HeyBud.45fd3ffa.gif",
     "static/media/MemeHouse.gif": "/static/media/MemeHouse.22b6af0a.gif",
-    "static/media/MemoryGame.gif": "/static/media/MemoryGame.c517b746.gif",
     "static/media/MomandPop.gif": "/static/media/MomandPop.edb88740.gif",
     "static/media/Resume.pdf": "/static/media/Resume.91189b36.pdf",
     "static/media/arcgis.png": "/static/media/arcgis.b819d940.png",
+    "static/media/development.png": "/static/media/development.ab55c4b6.png",
     "static/media/htmlcssjs.png": "/static/media/htmlcssjs.9228f542.png",
     "static/media/ice-cream.png": "/static/media/ice-cream.48824e77.png",
     "static/media/jquery.png": "/static/media/jquery.a3af0655.png",
@@ -34,12 +33,12 @@
     "static/media/python.png": "/static/media/python.067050f6.png",
     "static/media/react.png": "/static/media/react.df70b005.png",
     "static/media/sql.png": "/static/media/sql.e63c8672.png",
-    "static/media/tree.png": "/static/media/tree.5e50767e.png"
+    "static/media/virus.png": "/static/media/virus.572c50c6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c2b20a0b.js",
-    "static/js/2.7859dc6b.chunk.js",
-    "static/css/main.0d5cc794.chunk.css",
-    "static/js/main.3fa9ff56.chunk.js"
+    "static/js/2.78a77f50.chunk.js",
+    "static/css/main.db808efc.chunk.css",
+    "static/js/main.20ab3803.chunk.js"
   ]
 }
