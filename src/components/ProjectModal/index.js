@@ -4,10 +4,12 @@ import memeGif from '../../assets/project-files/MemeHouse.gif'
 import foodGif from '../../assets/project-files/MomandPop.gif'
 import hikeGif from '../../assets/project-files/FindMyHike.gif'
 import icecreamGif from '../../assets/project-files/GetTheScoop.gif'
-import memoryGif from '../../assets/project-files/MemoryGame.gif'
-import budGif from '../../assets/project-files/HeyBud.gif'
+// import memoryGif from '../../assets/project-files/MemoryGame.gif'
+// import budGif from '../../assets/project-files/HeyBud.gif'
+import development from '../../assets/project-files/development.png'
 
-const gifs = [foodGif, hikeGif, icecreamGif, memoryGif, budGif, memeGif]
+const gifs = [development, development, foodGif, hikeGif, icecreamGif, memeGif]
+// const gifs = [foodGif, hikeGif, icecreamGif, memoryGif, budGif, memeGif]
 
 function ProjectModal(props) {
     return (
@@ -19,7 +21,7 @@ function ProjectModal(props) {
                     <button className="delete" onClick={() => props.toggleModal()} aria-label="close"></button>
                 </header>
                 <section className="modal-card-body">
-                    {props.short}
+                    {props.description}
                     <div className="project-tools">
                         {props.tools.map(tool=> (
                             <span class="tag is-medium is-rounded">{"#" + tool}</span>                    
@@ -38,14 +40,14 @@ function ProjectModal(props) {
                             Github
             </span>
                     </a>
-                    <a className="button is-dark" target="_blank" href={props.website}>
+                    {props.website !== "" ? <a className="button is-dark" target="_blank" href={props.website}>
                         <span className="icon is-big">
                             <i className="fas fa-external-link-square-alt"></i>
                         </span>
                         <span>
                             Demo
-            </span>
-                    </a>
+                        </span>
+                    </a> : <span></span>}
                     {/* <button className="button is-success">Save changes</button>
                     <button className="button" onClick={() => props.toggleModal()} aria-label="close">Cancel</button> */}
                 </footer>

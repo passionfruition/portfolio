@@ -15,7 +15,8 @@ class App extends React.Component {
     id: null,
     tools: [],
     github: "",
-    website: ""
+    website: "",
+    description: ""
   }
 
   componentDidMount() {
@@ -50,7 +51,8 @@ displayProjectDetails = (event) => {
     id:clickedProject.id, 
     tools: clickedProject.tools, 
     github: clickedProject.github, 
-    website: clickedProject.website
+    website: clickedProject.website,
+    description: clickedProject.description
   }, function() {
  console.log(this.state.tools)
     this.toggleModal("test")
@@ -69,6 +71,7 @@ render() {
         toggleModal={this.toggleModal} 
         name={this.state.name} 
         short={this.state.short} 
+        description={this.state.description}
         id={this.state.id}
         tools={this.state.tools}
         github={this.state.github}

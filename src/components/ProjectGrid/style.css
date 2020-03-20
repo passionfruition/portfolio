@@ -70,7 +70,7 @@
 }
 
 #project1 {
-    background-color: rgb(253, 106, 106);
+    background-color:orchid;
 }
 
 #project2 {
@@ -78,15 +78,15 @@
 }
 
 #project3 {
-    background-color: pink;
+    background-color: rgb(253, 106, 106);
 }
 
 #project4 {
-    background-color:orchid;
+    background-color: lightgreen;
 }
 
 #project5 {
-    background-color: lightgreen;
+    background-color: pink;
 }
 
 .project:hover {
