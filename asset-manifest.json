@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.db808efc.chunk.css",
-    "main.js": "/static/js/main.7ac139b8.chunk.js",
-    "main.js.map": "/static/js/main.7ac139b8.chunk.js.map",
+    "main.css": "/static/css/main.66a0769f.chunk.css",
+    "main.js": "/static/js/main.641ce9fb.chunk.js",
+    "main.js.map": "/static/js/main.641ce9fb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c2b20a0b.js",
     "runtime-main.js.map": "/static/js/runtime-main.c2b20a0b.js.map",
-    "static/js/2.78a77f50.chunk.js": "/static/js/2.78a77f50.chunk.js",
-    "static/js/2.78a77f50.chunk.js.map": "/static/js/2.78a77f50.chunk.js.map",
+    "static/js/2.7859dc6b.chunk.js": "/static/js/2.7859dc6b.chunk.js",
+    "static/js/2.7859dc6b.chunk.js.map": "/static/js/2.7859dc6b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.98704b9d9d2f0815f8a28d30474a3c83.js": "/precache-manifest.98704b9d9d2f0815f8a28d30474a3c83.js",
+    "precache-manifest.cf3bb4a0d9009fa227c8525df2693424.js": "/precache-manifest.cf3bb4a0d9009fa227c8525df2693424.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.db808efc.chunk.css.map": "/static/css/main.db808efc.chunk.css.map",
-    "static/js/2.78a77f50.chunk.js.LICENSE.txt": "/static/js/2.78a77f50.chunk.js.LICENSE.txt",
+    "static/css/main.66a0769f.chunk.css.map": "/static/css/main.66a0769f.chunk.css.map",
+    "static/js/2.7859dc6b.chunk.js.LICENSE.txt": "/static/js/2.7859dc6b.chunk.js.LICENSE.txt",
+    "static/media/COVIDMap.gif": "/static/media/COVIDMap.7183d9eb.gif",
     "static/media/FindMyHike.gif": "/static/media/FindMyHike.89f9a731.gif",
     "static/media/GetTheScoop.gif": "/static/media/GetTheScoop.6579825f.gif",
     "static/media/MemeHouse.gif": "/static/media/MemeHouse.22b6af0a.gif",
     "static/media/MomandPop.gif": "/static/media/MomandPop.edb88740.gif",
+    "static/media/PhotoBlog.gif": "/static/media/PhotoBlog.bb8a52a2.gif",
     "static/media/Resume.pdf": "/static/media/Resume.b117e6c4.pdf",
     "static/media/arcgis.png": "/static/media/arcgis.b819d940.png",
-    "static/media/development.png": "/static/media/development.ab55c4b6.png",
     "static/media/htmlcssjs.png": "/static/media/htmlcssjs.9228f542.png",
     "static/media/ice-cream.png": "/static/media/ice-cream.48824e77.png",
     "static/media/jquery.png": "/static/media/jquery.a3af0655.png",
@@ -37,8 +38,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c2b20a0b.js",
-    "static/js/2.78a77f50.chunk.js",
-    "static/css/main.db808efc.chunk.css",
-    "static/js/main.7ac139b8.chunk.js"
+    "static/js/2.7859dc6b.chunk.js",
+    "static/css/main.66a0769f.chunk.css",
+    "static/js/main.641ce9fb.chunk.js"
   ]
 }
