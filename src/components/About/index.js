@@ -35,8 +35,7 @@ function About() {
                     <div className="mine messages">
                         <div className="message">
                             I am a developer who gets excited about building impactful apps
-                            with complex code to solve real-world problems. I am skilled in HTML/CSS,
-                            JavaScript, modern JavaScript libraries and frameworks, UX/UI Design, RESTful API and the MERN Stack.
+                            with complex code to solve real-world problems. I specialize in HTML, CSS, JavaScript, React, MERN (MongoDB, Express, React, Node), and geospatial technologies.
                             When it comes to work, I want to be involved in projects that I find challenging
                             alongside people that inspire me.
                         </div>

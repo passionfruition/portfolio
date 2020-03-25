@@ -6,9 +6,11 @@ import hikeGif from '../../assets/project-files/FindMyHike.gif'
 import icecreamGif from '../../assets/project-files/GetTheScoop.gif'
 // import memoryGif from '../../assets/project-files/MemoryGame.gif'
 // import budGif from '../../assets/project-files/HeyBud.gif'
-import development from '../../assets/project-files/development.png'
+import covid from '../../assets/project-files/COVIDMap.gif'
+import blog from '../../assets/project-files/PhotoBlog.gif'
+// import development from '../../assets/project-files/development.png'
 
-const gifs = [development, development, foodGif, hikeGif, icecreamGif, memeGif]
+const gifs = [covid, blog, foodGif, hikeGif, icecreamGif, memeGif]
 // const gifs = [foodGif, hikeGif, icecreamGif, memoryGif, budGif, memeGif]
 
 function ProjectModal(props) {
