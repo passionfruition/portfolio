@@ -16,8 +16,8 @@ var projects = [
         description: "(IN DEVELOPMENT) An app that keeps track of the COVID-19 spread in the United States along with relevant numbers.",
         short: "Mapping the global pandemic",
         tools: ["React", "ArcGIS API"],
-        github: "https://github.com/madeleineprak/map-project",
-        website: "https://madeleineprak.github.io/map-project/",
+        github: "https://github.com/madeleineprak/coronavirus-map",
+        website: "https://madeleineprak.github.io/coronavirus-map/",
         icon: "../../assets/icons/virus.png"
     },
     {
