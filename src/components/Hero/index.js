@@ -18,12 +18,15 @@ function Hero() {
                         </figure>
                     </div>
                     <div id="header-words" className="">
-                        <p className="title">
-                            Front End Developer
-                        </p>
-                        <p className="subtitle">
+                        <h1 className="title">
+                            Hi, I'm Madeleine! I'm a UW Alum pursuring Web Development with a background in GIS.
+                        </h1>
+                        {/* <h1 className="subtitle">
+                            I'm a UW Alum pursuring Web Development with a background in Geographic Information Systems.
+                        </h1> */}
+                        {/* <p className="subtitle">
                             I design and build beautiful web applications, and I love what I do.
-                        </p>
+                        </p> */}
                     </div>
                     
                    

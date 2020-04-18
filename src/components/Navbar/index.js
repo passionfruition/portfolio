@@ -9,7 +9,8 @@ function Navbar() {
             <div className="container">
             <div className="navbar-brand">
                 <a className="navbar-item" href="#home">
-                    <img id="logo" src={logo}></img> 
+                    {/* <img id="logo" src={logo}></img>  */}
+                    <h1 id="name-tag" className="title">MADELEINE PRAK</h1>
                 </a>
                 <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
                     <span></span>
@@ -27,17 +28,17 @@ function Navbar() {
 
                 <div className="navbar-end">
                     <a className="navbar-item nav-link" href="#about-section">
-                        About
+                        ABOUT
                     </a>
                     <a className="navbar-item nav-link" href="#portfolio">
-                        Portfolio
+                        PORTFOLIO
                     </a>
                     <a className="navbar-item nav-link" href="#contact">
-                        Contact
+                        CONTACT
                     </a>
                     <div className="buttons">
                     <a className="navbar-item button resume" target="_blank" href={resume}>
-                        Resume
+                        RESUME
                     </a>
                     </div>
                     

@@ -19,7 +19,7 @@
 }
 
 #header {
-    width: 80vw;
+    width: 70vw;
     margin: 0 auto;
 }
 
@@ -36,7 +36,7 @@ section {
 @media only screen and (min-width: 769px) {
     #header-words .title {
         font-size: 58px;
-        border-bottom: 3px solid #61e2ff;
+        /* border-bottom: 3px solid #61e2ff; */
         margin-top: 0px;
     } 
     
