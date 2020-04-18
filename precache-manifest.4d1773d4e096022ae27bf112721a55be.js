@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e17345ee81635e7ec6cafa34bead86f3",
+    "revision": "6ca67cf6ba31de89cb9d8bf9958e6c83",
     "url": "/index.html"
   },
   {
-    "revision": "abef4600054c000474cc",
-    "url": "/static/css/main.66a0769f.chunk.css"
+    "revision": "10b50b90b081098a07ca",
+    "url": "/static/css/main.fad28422.chunk.css"
   },
   {
-    "revision": "174d12f8644f6bbe3a6f",
-    "url": "/static/js/2.7859dc6b.chunk.js"
+    "revision": "86d6a4647d57d081e21b",
+    "url": "/static/js/2.463a9999.chunk.js"
   },
   {
     "revision": "99bd0487192ec9e7d9ee8fbbd91ee444",
-    "url": "/static/js/2.7859dc6b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.463a9999.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "abef4600054c000474cc",
-    "url": "/static/js/main.a8071ffe.chunk.js"
+    "revision": "10b50b90b081098a07ca",
+    "url": "/static/js/main.c8da1476.chunk.js"
   },
   {
     "revision": "0d46f7656c748826843c",
@@ -56,6 +56,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/arcgis.b819d940.png"
   },
   {
+    "revision": "7cc2b3759ed99c56a5c541083476e24f",
+    "url": "/static/media/coronamap.7cc2b375.PNG"
+  },
+  {
+    "revision": "7729bfbbe8e5cc744937e59769075f10",
+    "url": "/static/media/findmyhike.7729bfbb.png"
+  },
+  {
+    "revision": "35fab969b8361da0c9f8fc0c2dab0708",
+    "url": "/static/media/foodfinder.35fab969.PNG"
+  },
+  {
     "revision": "9228f542564a699b423ed11b590a6254",
     "url": "/static/media/htmlcssjs.9228f542.png"
   },
@@ -80,6 +92,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/me.6f263c7c.png"
   },
   {
+    "revision": "254bc60ed565d501a061edb58353fcd1",
+    "url": "/static/media/memehouse.254bc60e.PNG"
+  },
+  {
     "revision": "e5eee315a17de0d7f56117077eb71fa9",
     "url": "/static/media/mongodb.e5eee315.png"
   },
@@ -88,8 +104,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mountain.44a6ff1a.png"
   },
   {
+    "revision": "755ae3895a1f1f6d4085ac23e4340315",
+    "url": "/static/media/newsviewer.755ae389.PNG"
+  },
+  {
     "revision": "46f758661588703b190fb4d2aae3847a",
     "url": "/static/media/nodjs.46f75866.png"
+  },
+  {
+    "revision": "daf3f81b93b52ba1a64ca2877d828d01",
+    "url": "/static/media/photoblog.daf3f81b.png"
   },
   {
     "revision": "494d92ab3879b2418abbaff8fe52b895",
