@@ -80,8 +80,8 @@ render() {
       {/* <button id="test-button" className="button" onClick={() => this.toggleModal()}>click me</button> */}
       <Navbar/>
       <Hero/>
-      <hr></hr>
-      <About/>
+      {/* <hr></hr>
+      <About/> */}
       <hr></hr>
       <ProjectGrid displayProjectDetails={this.displayProjectDetails}/>
       <Footer />

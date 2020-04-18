@@ -21,7 +21,7 @@ function ProjectGrid(props) {
 
     return (
         <div className="container project-section">
-            <div className="columns is-centered project-words">
+            {/* <div className="columns is-centered project-words">
                 <div className="column is-10">
                     <div className="title">
                         Here are some recent projects I've worked on.
@@ -30,7 +30,7 @@ function ProjectGrid(props) {
                         Click on each for more details or ask me about my others.
             </div>
                 </div>
-            </div>
+            </div> */}
             <div className="columns is-centered">
                 <div id="portfolio" className="project-wrapper" onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}>
                     {projects.map(project => (

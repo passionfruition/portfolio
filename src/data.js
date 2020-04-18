@@ -65,7 +65,7 @@ var projects = [
         short: "Read daily HackerNews articles and add your own notes",
         tools: ["Mongoose", "Express", "Express-Handlebars", "Cheerio"],
         github: "https://github.com/madeleineprak/Get-The-Scoop",
-        website: "https://fast-inlet-41689.herokuapp.com/",
+        website: "https://getthescoop.herokuapp.com/",
         icon: "../../assets/icons/ice-cream.png"
     },
     // {
