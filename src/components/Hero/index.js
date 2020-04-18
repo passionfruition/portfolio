@@ -19,7 +19,7 @@ function Hero() {
                     </div>
                     <div id="header-words" className="">
                         <h1 className="title">
-                            Hi, I'm Madeleine! I'm a UW Alum pursuring Web Development with a background in GIS.
+                            Hi, I'm Madeleine! I'm a UW Alum pursuing Web Development with a background in GIS.
                         </h1>
                         {/* <h1 className="subtitle">
                             I'm a UW Alum pursuring Web Development with a background in Geographic Information Systems.
