@@ -27,15 +27,15 @@ function Navbar() {
                 </div>
 
                 <div className="navbar-end">
-                    <a className="navbar-item nav-link" href="#about-section">
+                    {/* <a className="navbar-item nav-link" href="#about-section">
                         ABOUT
-                    </a>
-                    <a className="navbar-item nav-link" href="#portfolio">
+                    </a> */}
+                    {/* <a className="navbar-item nav-link" href="#portfolio">
                         PORTFOLIO
-                    </a>
-                    <a className="navbar-item nav-link" href="#contact">
+                    </a> */}
+                    {/* <a className="navbar-item nav-link" href="#contact">
                         CONTACT
-                    </a>
+                    </a> */}
                     <div className="buttons">
                     <a className="navbar-item button resume" target="_blank" href={resume}>
                         RESUME

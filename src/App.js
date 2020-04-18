@@ -7,6 +7,16 @@ import About from './components/About/index';
 import Hero from './components/Hero/index';
 import ProjectModal from './components/ProjectModal/index';
 import projects from '../src/data'
+// import meme from '../../assets/icons/king.png'
+import covidmap from '../src/assets/project-files/coronamap.PNG'
+import photoblog from '../src/assets/project-files/photoblog.png'
+import foodfinder from '../src/assets/project-files/foodfinder.PNG'
+import hikefinder from '../src/assets/project-files/findmyhike.png'
+import newsviewer from '../src/assets/project-files/newsviewer.PNG'
+import memehouse from '../src/assets/project-files/memehouse.PNG'
+
+
+
 
 class App extends React.Component {
   state = {
@@ -16,7 +26,8 @@ class App extends React.Component {
     tools: [],
     github: "",
     website: "",
-    description: ""
+    description: "",
+    mainProjects: [covidmap, photoblog, foodfinder, hikefinder, newsviewer, memehouse]
   }
 
   componentDidMount() {
@@ -65,8 +76,9 @@ displayProjectDetails = (event) => {
 }
 
 render() {
+  
   return (
-    <div className="App">
+    <div className="App container">
       <ProjectModal 
         toggleModal={this.toggleModal} 
         name={this.state.name} 
@@ -80,6 +92,12 @@ render() {
       {/* <button id="test-button" className="button" onClick={() => this.toggleModal()}>click me</button> */}
       <Navbar/>
       <Hero/>
+      {/* <div id="main-projects">
+        {this.state.mainProjects.map(project => {
+          return <div className="main-project-background"><img className="main-project" src={project} key={project}></img></div>
+        })}
+      </div> */}
+      
       {/* <hr></hr>
       <About/> */}
       <hr></hr>

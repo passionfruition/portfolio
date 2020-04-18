@@ -34,7 +34,7 @@ function ProjectGrid(props) {
             <div className="columns is-centered">
                 <div id="portfolio" className="project-wrapper" onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}>
                     {projects.map(project => (
-                        <div id={"project" + project.id} key={project.id} className="project" data-id={project.id - 1} onClick={(event) => props.displayProjectDetails(event)}>
+                        <div id={"project" + project.id} key={project.id} className="project card" data-id={project.id - 1} onClick={(event) => props.displayProjectDetails(event)}>
                             <a.img src={icons[project.id - 1]} data-id={project.id - 1} className="project-icon" style={{ transform: prop.xy.interpolate(trans1) }} />
                             {/* <img src={require('../../assets/icons/king.png')}></img> */}
                             <div className="project-title title">
