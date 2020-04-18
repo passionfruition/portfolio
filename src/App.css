@@ -10,13 +10,13 @@ html, body {
   width: 100%;
   height: 100%;
   /* font-family: "HKGroteskRegular", Roboto, sans-serif !important; */
-  font-family: "Europa";
+  font-family: "Europa", sans-serif;
   scroll-behavior: smooth;
   background-color: #f8f8f8;
 }
 
 h1 {
-  font-family: "Europa-Bold";
+  font-family: "Europa-Bold", sans-serif;
 }
 
 body {
