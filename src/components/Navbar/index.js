@@ -30,9 +30,9 @@ function Navbar() {
                     {/* <a className="navbar-item nav-link" href="#about-section">
                         ABOUT
                     </a> */}
-                    {/* <a className="navbar-item nav-link" href="#portfolio">
-                        PORTFOLIO
-                    </a> */}
+                    <a className="navbar-item nav-link" href="#portfolio">
+                        PROJECTS
+                    </a>
                     {/* <a className="navbar-item nav-link" href="#contact">
                         CONTACT
                     </a> */}
