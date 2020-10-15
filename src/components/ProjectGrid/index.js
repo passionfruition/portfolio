@@ -20,36 +20,36 @@ function ProjectGrid(props) {
     const [prop, set] = useSpring(() => ({ xy: [0, 0], config: { mass: 10, tension: 550, friction: 140 } }))
 
     return (
-        <div className="container project-section">
-            {/* <div className="columns is-centered project-words">
-                <div className="column is-10">
-                    <div className="title">
-                        Here are some recent projects I've worked on.
-            </div>
-                    <div className="subtitle">
-                        Click on each for more details or ask me about my others.
-            </div>
-                </div>
-            </div> */}
-            <div className="columns is-centered">
-                <div id="portfolio" className="project-wrapper" onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}>
-                    {projects.map(project => (
-                        <div id={"project" + project.id} key={project.id} className="project card" data-id={project.id - 1} onClick={(event) => props.displayProjectDetails(event)}>
-                            <a.img src={icons[project.id - 1]} data-id={project.id - 1} className="project-icon" style={{ transform: prop.xy.interpolate(trans1) }} />
-                            {/* <img src={require('../../assets/icons/king.png')}></img> */}
-                            <div className="project-title title">
-                                {project.name}
-                            </div>
-                            <div className="project-desc">
-                                {project.short}
-                            </div>
-                        </div>
-                    ))}
-                </div>
-            </div>
+        // <div className="container project-section">
+        //     {/* <div className="columns is-centered project-words">
+        //         <div className="column is-10">
+        //             <div className="title">
+        //                 Here are some recent projects I've worked on.
+        //     </div>
+        //             <div className="subtitle">
+        //                 Click on each for more details or ask me about my others.
+        //     </div>
+        //         </div>
+        //     </div> */}
+        //     <div className="columns is-centered">
+        //         <div id="portfolio" className="project-wrapper" onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}>
+        //             {projects.map(project => (
+        //                 <div id={"project" + project.id} key={project.id} className="project card" data-id={project.id - 1} onClick={(event) => props.displayProjectDetails(event)}>
+        //                     <a.img src={icons[project.id - 1]} data-id={project.id - 1} className="project-icon" style={{ transform: prop.xy.interpolate(trans1) }} />
+        //                     {/* <img src={require('../../assets/icons/king.png')}></img> */}
+        //                     <div className="project-title title">
+        //                         {project.name}
+        //                     </div>
+        //                     <div className="project-desc">
+        //                         {project.short}
+        //                     </div>
+        //                 </div>
+        //             ))}
+        //         </div>
+        //     </div>
 
 
-        </div>
+        // </div>
     )
 }
 
