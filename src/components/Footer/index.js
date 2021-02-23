@@ -26,11 +26,6 @@ function Footer() {
                                 <i className="fas fa-envelope"></i>
                             </span>
                         </a>
-                        <a href="tel:425-737-8950" target="_blank" rel="noopener noreferrer" className="button is-black is-outlined">
-                            <span className="icon is-small">
-                                <i className="fas fa-phone"></i>
-                            </span>
-                        </a>
                     </p>
             <div className="has-text-centered">
                 <p>

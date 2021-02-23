@@ -37,9 +37,9 @@ function Navbar() {
                         CONTACT
                     </a> */}
                     <div className="buttons">
-                    <a className="navbar-item button resume" target="_blank" href={resume}>
+                    {/* <a className="navbar-item button resume" target="_blank" href={resume}>
                         RESUME
-                    </a>
+                    </a> */}
                     </div>
                     
                 </div>

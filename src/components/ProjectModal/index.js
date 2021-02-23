@@ -34,22 +34,23 @@ function ProjectModal(props) {
                     </div>
                 </section>
                 <footer className="modal-card-foot">
-                    <a className="button is-dark" target="_blank" href={props.github}>
+                    {/* <a className="button is-dark" target="_blank" href={props.github}>
                         <span className="icon is-big">
                             <i className="fab fa-github-square"></i>
                         </span>
                         <span>
                             Github
             </span>
-                    </a>
-                    {props.website !== "" ? <a className="button is-dark" target="_blank" href={props.website}>
+                    </a> */}
+                    {/* {props.website !== "" ? <a className="button is-dark" target="_blank" href={props.website}> */}
+                    {/* {props.website !== "" ? <a className="button is-dark" disabled>
                         <span className="icon is-big">
                             <i className="fas fa-external-link-square-alt"></i>
                         </span>
                         <span>
                             Demo
                         </span>
-                    </a> : <span></span>}
+                    </a> : <span></span>} */}
                     {/* <button className="button is-success">Save changes</button>
                     <button className="button" onClick={() => props.toggleModal()} aria-label="close">Cancel</button> */}
                 </footer>

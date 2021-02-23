@@ -58,10 +58,12 @@ function About() {
                     
                 </div>
 
-                <div id="about-etc" className="column is-4">
+                {/* <div id="about-etc" className="column is-4">
                     <img id="about-photo" alt="profile" src={require('../../assets/me.png')}></img>
+                </div> */}
+                <div id="about-etc" className="column is-4">
+                    <img id="about-photo" alt="profile" src={require('../../assets/profile-blue.png')}></img>
                 </div>
-                
             </div>
             <div className="columns is-centered">
             <div class="skills">

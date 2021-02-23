@@ -101,7 +101,7 @@ render() {
       {/* <hr></hr>
       <About/> */}
       <hr></hr>
-      {/* <ProjectGrid displayProjectDetails={this.displayProjectDetails}/> */}
+      <ProjectGrid displayProjectDetails={this.displayProjectDetails}/>
       <Footer />
     </div>
   );
