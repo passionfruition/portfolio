@@ -11,7 +11,7 @@ function Footer() {
                                 <i className="fab fa-linkedin-in"></i>
                             </span>
                         </a>
-                        <a href="https://github.com/madeleineprak" target="_blank" rel="noopener noreferrer" className="button is-black is-outlined">
+                        <a href="https://github.com/passionfruition" target="_blank" rel="noopener noreferrer" className="button is-black is-outlined">
                             <span className="icon is-small">
                                 <i className="fab fa-github-alt"></i>
                             </span>
@@ -21,7 +21,7 @@ function Footer() {
                                 <i className="fab fa-twitter"></i>
                             </span>
                         </a>
-                        <a href="mailto:contact@madeleineprak.com" target="_blank" rel="noopener noreferrer" className="button is-black is-outlined">
+                        <a href="mailto:madeleineprak@gmail.com" target="_blank" rel="noopener noreferrer" className="button is-black is-outlined">
                             <span className="icon is-small">
                                 <i className="fas fa-envelope"></i>
                             </span>
