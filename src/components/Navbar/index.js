@@ -10,7 +10,7 @@ function Navbar() {
             <div className="navbar-brand">
                 <a className="navbar-item" href="#home">
                     {/* <img id="logo" src={logo}></img>  */}
-                    <h1 id="name-tag" className="title">MADELEINE PRAK</h1>
+                    <h1 id="name-tag" className="title">MADELEINE</h1>
                 </a>
                 <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
                     <span></span>
