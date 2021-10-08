@@ -13,7 +13,7 @@ import virus from '../../assets/icons/virus.png'
 const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2]
 const trans1 = (x, y) => `translate3d(${x / 75}px,${y / 75}px,0)`
 
-const icons = [virus, memory, food, hike, icecream, meme]
+const icons = [food, hike, icecream, meme]
 // const icons = [food, hike, icecream, memory, bud, meme]
 
 function ProjectGrid(props) {
@@ -22,7 +22,7 @@ function ProjectGrid(props) {
     return (
         <div className="container project-section">
             <div className="columns is-centered project-words">
-                <div className="column is-10">
+                <div className="column is-12">
                     <div className="title">
                         Here are some recent projects I've worked on.
             </div>
@@ -32,7 +32,7 @@ function ProjectGrid(props) {
                 </div>
             </div>
             <div className="columns is-centered">
-                <div id="portfolio" className="project-wrapper" onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}>
+                <div id="portfolio" className="project-wrapper container" onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}>
                     {projects.map(project => (
                         <div id={"project" + project.id} key={project.id} className="project card" data-id={project.id - 1} onClick={(event) => props.displayProjectDetails(event)}>
                             <a.img src={icons[project.id - 1]} data-id={project.id - 1} className="project-icon" style={{ transform: prop.xy.interpolate(trans1) }} />

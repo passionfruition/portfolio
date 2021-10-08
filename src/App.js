@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar/index';
 import ProjectGrid from './components/ProjectGrid/index';
 import Footer from './components/Footer/index';
-import About from './components/About/index';
+// import About from './components/About/index';
 import Hero from './components/Hero/index';
 import ProjectModal from './components/ProjectModal/index';
 import projects from '../src/data'
@@ -15,9 +15,6 @@ import hikefinder from '../src/assets/project-files/findmyhike.png'
 import newsviewer from '../src/assets/project-files/newsviewer.PNG'
 import memehouse from '../src/assets/project-files/memehouse.PNG'
 
-
-
-
 class App extends React.Component {
   state = {
     name: "",
@@ -27,8 +24,9 @@ class App extends React.Component {
     github: "",
     website: "",
     description: "",
-    mainProjects: [covidmap, photoblog, foodfinder, hikefinder, newsviewer, memehouse]
+    mainProjects: [foodfinder, hikefinder, newsviewer, memehouse]
   }
+  // mainProjects: [covidmap, photoblog, foodfinder, hikefinder, newsviewer, memehouse]
 
   componentDidMount() {
     // Bulma mobile toggle
@@ -100,7 +98,7 @@ render() {
       
       {/* <hr></hr>
       <About/> */}
-      <hr></hr>
+      
       <ProjectGrid displayProjectDetails={this.displayProjectDetails}/>
       <Footer />
     </div>

@@ -27,11 +27,11 @@ function Footer() {
                             </span>
                         </a>
                     </p>
-            <div className="has-text-centered">
+            {/* <div className="has-text-centered">
                 <p>
                 All project icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
                 </p>
-            </div>
+            </div> */}
         </div>
     )
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
-import logo from '../../assets/logo-blue.png'
-import resume from '../../Resume.pdf'
+// import logo from '../../assets/logo-blue.png'
+// import resume from '../../Resume.pdf'
 
 function Navbar() {
     return (
@@ -10,7 +10,7 @@ function Navbar() {
             <div className="navbar-brand">
                 <a className="navbar-item" href="#home">
                     {/* <img id="logo" src={logo}></img>  */}
-                    <h1 id="name-tag" className="title">MADELEINE</h1>
+                    <h1>🍑 PASSION FRUITION</h1>
                 </a>
                 <div className="navbar-burger burger" data-target="navbarExampleTransparentExample">
                     <span></span>
@@ -31,7 +31,7 @@ function Navbar() {
                         ABOUT
                     </a> */}
                     <a className="navbar-item nav-link" href="#portfolio">
-                        PROJECTS
+                        <h1>PROJECTS</h1>
                     </a>
                     {/* <a className="navbar-item nav-link" href="#contact">
                         CONTACT

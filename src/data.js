@@ -8,32 +8,32 @@
 // var projectIcons = [meme, food, hike, icecream, memory, bud];
 
 var projects = [
+    // {
+    //     id: 1,
+    //     name: "COVID-19 Map (U.S.)",
+    //     photo: "",
+    //     gif: "../../assets/project-files/COVIDMap.gif",
+    //     description: "(IN DEVELOPMENT) An app that keeps track of the COVID-19 spread in the United States along with relevant numbers.",
+    //     short: "Mapping the global pandemic",
+    //     tools: ["React", "ArcGIS API"],
+    //     github: "https://github.com/madeleineprak/coronavirus-map",
+    //     website: "https://madeleineprak.github.io/coronavirus-map/",
+    //     icon: "../../assets/icons/virus.png"
+    // },
+    // {
+    //     id: 2,
+    //     name: "It's the Little Things",
+    //     photo: "",
+    //     gif: "../../assets/project-files/PhotoBlog.gif",
+    //     description: "(IN DEVELOPMENT) My personal photo blog of some of my favorite things.",
+    //     short: "Capturing my favorite things",
+    //     tools: ["React"],
+    //     github: "https://github.com/madeleineprak/photo-blog",
+    //     website: "https://madeleineprak.github.io/photo-blog/",
+    //     icon: "../../assets/icons/photography.png"
+    // },
     {
         id: 1,
-        name: "COVID-19 Map (U.S.)",
-        photo: "",
-        gif: "../../assets/project-files/COVIDMap.gif",
-        description: "(IN DEVELOPMENT) An app that keeps track of the COVID-19 spread in the United States along with relevant numbers.",
-        short: "Mapping the global pandemic",
-        tools: ["React", "ArcGIS API"],
-        github: "https://github.com/madeleineprak/coronavirus-map",
-        website: "https://madeleineprak.github.io/coronavirus-map/",
-        icon: "../../assets/icons/virus.png"
-    },
-    {
-        id: 2,
-        name: "It's the Little Things",
-        photo: "",
-        gif: "../../assets/project-files/PhotoBlog.gif",
-        description: "(IN DEVELOPMENT) My personal photo blog of some of my favorite things.",
-        short: "Capturing my favorite things",
-        tools: ["React"],
-        github: "https://github.com/madeleineprak/photo-blog",
-        website: "https://madeleineprak.github.io/photo-blog/",
-        icon: "../../assets/icons/photography.png"
-    },
-    {
-        id: 3,
         name: "Mom 'n Pop",
         photo: "../../assets/project-files/MomandPop.PNG",
         gif: "../../assets/project-files/MomandPop.gif",
@@ -45,7 +45,7 @@ var projects = [
         icon: "../../assets/icons/maps-and-location.png"
     },
     {
-        id: 4,
+        id: 2,
         name: "Hike Finder",
         photo: "../../assets/project-files/HikeFinder.PNG",
         gif: "../../assets/project-files/FindMyHike.gif",
@@ -57,7 +57,7 @@ var projects = [
         icon: "../../assets/icons/mountain.png"
     },
     {
-        id: 5,
+        id: 3,
         name: "Get The Scoop",
         photo: "../../assets/project-files/GetTheScoop.PNG",
         gif: "../../assets/project-files/GetTheScoop.gif",
@@ -93,7 +93,7 @@ var projects = [
     //     icon: "../../assets/icons/tree.png"
     // },
     {
-        id: 6,
+        id: 4,
         name: "Meme House",
         photo: "",
         gif: "",

@@ -10,7 +10,8 @@ import covid from '../../assets/project-files/COVIDMap.gif'
 import blog from '../../assets/project-files/PhotoBlog.gif'
 // import development from '../../assets/project-files/development.png'
 
-const gifs = [covid, blog, foodGif, hikeGif, icecreamGif, memeGif]
+const gifs = [foodGif, hikeGif, icecreamGif, memeGif]
+// const gifs = [covid, blog, foodGif, hikeGif, icecreamGif, memeGif]
 // const gifs = [foodGif, hikeGif, icecreamGif, memoryGif, budGif, memeGif]
 
 function ProjectModal(props) {

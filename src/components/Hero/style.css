@@ -3,9 +3,7 @@
 }
 
 #header-words .title {
-    font-size: 30px;
-    width: 100%;
-    margin-top: 50px;
+    display: none;
 }
 
 #header-words .subtitle {
@@ -13,8 +11,8 @@
 }
 
 #header-icon {
-    /* width: 15vw;
-    height: 15vh; */
+    width: 50%;
+    height: 50%;
     margin: 0 auto;
 }
 
@@ -35,6 +33,7 @@ section {
 
 @media only screen and (min-width: 769px) {
     #header-words .title {
+        display: block;
         font-size: 58px;
         /* border-bottom: 3px solid #61e2ff; */
         margin-top: 0px;
