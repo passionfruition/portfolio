@@ -1,23 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2c1e7c47.chunk.css",
-    "main.js": "/portfolio/static/js/main.1f3b59d1.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1f3b59d1.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.a8ea72a7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a8ea72a7.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.73db78b5.chunk.js": "/portfolio/static/js/2.73db78b5.chunk.js",
-    "static/js/2.73db78b5.chunk.js.map": "/portfolio/static/js/2.73db78b5.chunk.js.map",
+    "static/js/2.a0030494.chunk.js": "/portfolio/static/js/2.a0030494.chunk.js",
+    "static/js/2.a0030494.chunk.js.map": "/portfolio/static/js/2.a0030494.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.bfb5d157f53c080ad5b1eb3c210aa888.js": "/portfolio/precache-manifest.bfb5d157f53c080ad5b1eb3c210aa888.js",
+    "precache-manifest.8a37d673dd6581e0d1e60afef10403d7.js": "/portfolio/precache-manifest.8a37d673dd6581e0d1e60afef10403d7.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.2c1e7c47.chunk.css.map": "/portfolio/static/css/main.2c1e7c47.chunk.css.map",
-    "static/js/2.73db78b5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.73db78b5.chunk.js.LICENSE.txt",
-    "static/media/COVIDMap.gif": "/portfolio/static/media/COVIDMap.7183d9eb.gif",
-    "static/media/FindMyHike.gif": "/portfolio/static/media/FindMyHike.89f9a731.gif",
+    "static/js/2.a0030494.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a0030494.chunk.js.LICENSE.txt",
     "static/media/GetTheScoop.gif": "/portfolio/static/media/GetTheScoop.6579825f.gif",
     "static/media/MemeHouse.gif": "/portfolio/static/media/MemeHouse.22b6af0a.gif",
     "static/media/MomandPop.gif": "/portfolio/static/media/MomandPop.edb88740.gif",
-    "static/media/PhotoBlog.gif": "/portfolio/static/media/PhotoBlog.bb8a52a2.gif",
     "static/media/coronamap.PNG": "/portfolio/static/media/coronamap.7cc2b375.PNG",
     "static/media/findmyhike.png": "/portfolio/static/media/findmyhike.7729bfbb.png",
     "static/media/foodfinder.PNG": "/portfolio/static/media/foodfinder.35fab969.PNG",
@@ -26,16 +23,15 @@
     "static/media/maps-and-location.png": "/portfolio/static/media/maps-and-location.3c4539b3.png",
     "static/media/memehouse.PNG": "/portfolio/static/media/memehouse.254bc60e.PNG",
     "static/media/memojiprofile.png": "/portfolio/static/media/memojiprofile.f4493355.png",
-    "static/media/mountain.png": "/portfolio/static/media/mountain.44a6ff1a.png",
     "static/media/newsviewer.PNG": "/portfolio/static/media/newsviewer.755ae389.PNG",
-    "static/media/photoblog.png": "/portfolio/static/media/photoblog.daf3f81b.png",
-    "static/media/photography.png": "/portfolio/static/media/photography.494d92ab.png",
-    "static/media/virus.png": "/portfolio/static/media/virus.572c50c6.png"
+    "static/media/osm.png": "/portfolio/static/media/osm.af8305b1.png",
+    "static/media/osmdashboard.PNG": "/portfolio/static/media/osmdashboard.ba5a23df.PNG",
+    "static/media/photoblog.png": "/portfolio/static/media/photoblog.daf3f81b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.73db78b5.chunk.js",
+    "static/js/2.a0030494.chunk.js",
     "static/css/main.2c1e7c47.chunk.css",
-    "static/js/main.1f3b59d1.chunk.js"
+    "static/js/main.a8ea72a7.chunk.js"
   ]
 }
