@@ -34,6 +34,18 @@ var projects = [
     // },
     {
         id: 1,
+        name: "OSM Dashboard",
+        photo: "../../assets/project-files/osmdashboard.PNG",
+        gif: "../../assets/project-files/osmdashboard.png",
+        description: "A dashboard that showcases the impact a decade of editing in OpenStreetMap has on road networks in Washington and Cambodia.",
+        short: "10 Years of Editing in OpenStreetMap",
+        tools: ["OpenLayers", "Overpass", "QGIS", "Geoprocessing Tools"],
+        github: "https://github.com/passionfruition/osm-dashboard/",
+        website: "https://passionfruition.github.io/osm-dashboard/",
+        icon: "../../assets/icons/osm.png"
+    },
+    {
+        id: 2,
         name: "Mom 'n Pop",
         photo: "../../assets/project-files/MomandPop.PNG",
         gif: "../../assets/project-files/MomandPop.gif",
@@ -44,18 +56,18 @@ var projects = [
         website: "https://momnpop.herokuapp.com/",
         icon: "../../assets/icons/maps-and-location.png"
     },
-    {
-        id: 2,
-        name: "Hike Finder",
-        photo: "../../assets/project-files/HikeFinder.PNG",
-        gif: "../../assets/project-files/FindMyHike.gif",
-        description: "An app where you can find a hike in any given area along with all the information you need to plan a trip there.",
-        short: "Find a hike with all the necessary trip details",
-        tools: ["Parsley.js", "GoogleDevelopers", "HikingProjectAPI"],
-        github: "https://github.com/madeleineprak/Find-My-Hike",
-        website: "https://madeleineprak.github.io/Find-My-Hike/",
-        icon: "../../assets/icons/mountain.png"
-    },
+    // {
+    //     id: 2,
+    //     name: "Hike Finder",
+    //     photo: "../../assets/project-files/HikeFinder.PNG",
+    //     gif: "../../assets/project-files/FindMyHike.gif",
+    //     description: "An app where you can find a hike in any given area along with all the information you need to plan a trip there.",
+    //     short: "Find a hike with all the necessary trip details",
+    //     tools: ["Parsley.js", "GoogleDevelopers", "HikingProjectAPI"],
+    //     github: "https://github.com/madeleineprak/Find-My-Hike",
+    //     website: "https://madeleineprak.github.io/Find-My-Hike/",
+    //     icon: "../../assets/icons/mountain.png"
+    // },
     {
         id: 3,
         name: "Get The Scoop",

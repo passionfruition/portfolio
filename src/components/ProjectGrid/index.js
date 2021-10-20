@@ -4,16 +4,17 @@ import { useSpring, animated as a } from 'react-spring'
 import projects from '../../data'
 import meme from '../../assets/icons/king.png'
 import food from '../../assets/icons/maps-and-location.png'
-import hike from '../../assets/icons/mountain.png'
+// import hike from '../../assets/icons/mountain.png'
 import icecream from '../../assets/icons/ice-cream.png'
-import memory from '../../assets/icons/photography.png'
-import virus from '../../assets/icons/virus.png'
+import osm from '../../assets/icons/osm.png'
+// import memory from '../../assets/icons/photography.png'
+// import virus from '../../assets/icons/virus.png'
 // import bud from '../../assets/icons/tree.png'
 
 const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2]
 const trans1 = (x, y) => `translate3d(${x / 75}px,${y / 75}px,0)`
 
-const icons = [food, hike, icecream, meme]
+const icons = [osm, food, icecream, meme]
 // const icons = [food, hike, icecream, memory, bud, meme]
 
 function ProjectGrid(props) {

@@ -2,15 +2,16 @@ import React from "react";
 import './style.css';
 import memeGif from '../../assets/project-files/MemeHouse.gif'
 import foodGif from '../../assets/project-files/MomandPop.gif'
-import hikeGif from '../../assets/project-files/FindMyHike.gif'
+// import hikeGif from '../../assets/project-files/FindMyHike.gif'
 import icecreamGif from '../../assets/project-files/GetTheScoop.gif'
+import osm from '../../assets/project-files/osmdashboard.PNG'
 // import memoryGif from '../../assets/project-files/MemoryGame.gif'
 // import budGif from '../../assets/project-files/HeyBud.gif'
-import covid from '../../assets/project-files/COVIDMap.gif'
-import blog from '../../assets/project-files/PhotoBlog.gif'
+// import covid from '../../assets/project-files/COVIDMap.gif'
+// import blog from '../../assets/project-files/PhotoBlog.gif'
 // import development from '../../assets/project-files/development.png'
 
-const gifs = [foodGif, hikeGif, icecreamGif, memeGif]
+const gifs = [osm, foodGif, icecreamGif, memeGif]
 // const gifs = [covid, blog, foodGif, hikeGif, icecreamGif, memeGif]
 // const gifs = [foodGif, hikeGif, icecreamGif, memoryGif, budGif, memeGif]
 
