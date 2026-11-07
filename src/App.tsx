@@ -1,4 +1,5 @@
 import { ThemeProvider } from "@/components/theme-provider"
+import { TooltipProvider } from "@/components/ui/tooltip"
 import { Nav } from "@/components/Nav"
 import { SectionDots } from "@/components/SectionDots"
 import { Hero } from "@/components/sections/Hero"
@@ -9,14 +10,16 @@ import { Contact } from "@/components/sections/Contact"
 function App() {
   return (
     <ThemeProvider>
-      <Nav />
-      <SectionDots />
-      <main className="h-svh snap-y snap-mandatory overflow-y-scroll scroll-smooth">
-        <Hero />
-        <About />
-        <Projects />
-        <Contact />
-      </main>
+      <TooltipProvider>
+        <Nav />
+        <SectionDots />
+        <main className="h-svh snap-y snap-mandatory overflow-y-scroll scroll-smooth">
+          <Hero />
+          <About />
+          <Projects />
+          <Contact />
+        </main>
+      </TooltipProvider>
     </ThemeProvider>
   )
 }

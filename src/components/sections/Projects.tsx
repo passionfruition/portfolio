@@ -1,4 +1,4 @@
-import { ExternalLink } from "lucide-react"
+import { ExternalLink, Lock } from "lucide-react"
 import { useReveal } from "@/lib/useReveal"
 import { Badge } from "@/components/ui/badge"
 import {
@@ -9,6 +9,7 @@ import {
   CardContent,
   CardFooter,
 } from "@/components/ui/card"
+import { Tooltip, TooltipTrigger, TooltipContent } from "@/components/ui/tooltip"
 import { GitHubIcon } from "@/components/icons"
 
 type Project = {
@@ -17,6 +18,7 @@ type Project = {
   tags: string[]
   repoUrl?: string
   liveUrl?: string
+  confidential?: boolean
 }
 
 const projects: Project[] = [
@@ -25,18 +27,21 @@ const projects: Project[] = [
     description:
       "Led development of a data platform that helps farmers manage agriculturual data and discover grant opportunities.",
     tags: ["React", "TypeScript", "Web API", "Figma Design"],
+    confidential: true,
   },
   {
     title: "AI Data Center Digital Twin Platform",
     description:
       "Developed a digital twin platform for planning, simulating, and optimizing gigawatt-scale AI data centers.",
     tags: ["React", "TypeScript", "Omniverse", "3D Visualization"],
+    confidential: true,
   },
   {
     title: "Data Center Site Selection Platform",
     description:
       "Developed a geospatial site selection platform that integrates multiple data layers, spatial analysis, and reporting.",
     tags: ["React", "TypeScript", "ArcGIS Maps SDK", "AI Analytics"],
+    confidential: true,
   },
   {
     title: "Evoka Map",
@@ -71,28 +76,48 @@ function ProjectCard({ project, delay }: { project: Project; delay: number }) {
             ))}
           </div>
         </CardContent>
-        <CardFooter className="mt-auto gap-4 bg-transparent">
-          {project.repoUrl && (
-            <a
-              href={project.repoUrl}
-              target="_blank"
-              className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
-            >
-              <GitHubIcon className="size-4" />
-              Code
-            </a>
-          )}
-          {project.liveUrl && (
-            <a
-              href={project.liveUrl}
-              target="_blank"
-              className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
-            >
-              <ExternalLink className="size-4" />
-              Live
-            </a>
-          )}
-        </CardFooter>
+        {(project.repoUrl || project.liveUrl || project.confidential) && (
+          <CardFooter className="mt-auto gap-4 bg-transparent">
+            {project.repoUrl && (
+              <a
+                href={project.repoUrl}
+                target="_blank"
+                className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
+              >
+                <GitHubIcon className="size-4" />
+                Code
+              </a>
+            )}
+            {project.liveUrl && (
+              <a
+                href={project.liveUrl}
+                target="_blank"
+                className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
+              >
+                <ExternalLink className="size-4" />
+                Live
+              </a>
+            )}
+            {project.confidential && (
+              <Tooltip>
+                <TooltipTrigger
+                  render={
+                    <Badge
+                      variant="outline"
+                      className="gap-1 text-muted-foreground"
+                    >
+                      <Lock className="size-3" />
+                      Confidential
+                    </Badge>
+                  }
+                />
+                <TooltipContent>
+                  Code and live demo are private — covered under NDA
+                </TooltipContent>
+              </Tooltip>
+            )}
+          </CardFooter>
+        )}
       </Card>
     </div>
   )
