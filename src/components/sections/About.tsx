@@ -1,5 +1,6 @@
 import { useReveal } from "@/lib/useReveal"
 import { Badge } from "@/components/ui/badge"
+import Avatar from "@/assets/avatar.png"
 
 const skills = [
   "TypeScript",
@@ -28,8 +29,8 @@ export function About() {
             About Me
           </h2>
           <p className="text-muted-foreground">
-          I'm a frontend-focused software engineer passionate about building thoughtful, 
-          intuitive digital experiences. I enjoy working at the intersection of design 
+          I'm a software engineer passionate about building thoughtful,
+          intuitive digital experiences. I enjoy working at the intersection of design
           and technology, turning complex problems into clean, functional solutions.
           </p>
           <p className="text-muted-foreground">
@@ -47,10 +48,13 @@ export function About() {
           </div>
         </div>
 
-        <div
-          aria-hidden
-          className="size-32 shrink-0 rounded-2xl border border-border bg-muted sm:size-40"
-        />
+        <div className="size-32 shrink-0 overflow-hidden rounded-full bg-muted sm:size-40">
+          <img
+            src={Avatar}
+            alt="Portrait of Madeleine"
+            className="size-full object-cover"
+          />
+        </div>
       </div>
     </section>
   )

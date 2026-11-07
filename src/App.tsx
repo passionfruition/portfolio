@@ -13,7 +13,7 @@ function App() {
       <TooltipProvider>
         <Nav />
         <SectionDots />
-        <main className="h-svh snap-y snap-mandatory overflow-y-scroll scroll-smooth">
+        <main className="scrollbar-hide h-svh snap-y snap-mandatory overflow-y-scroll scroll-smooth">
           <Hero />
           <About />
           <Projects />
